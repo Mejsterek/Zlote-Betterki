@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Betterki.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Betterki.wsymbtl2yk.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\Zote_Betterki.png",
+      "PackagePath": "staticwebassets\\Zote_Betterki.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\favcicon.ico",
+      "PackagePath": "staticwebassets\\favcicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Cringe Roku\\Boobie Smith - Poka mi fiuta.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Cringe Roku\\Boobie Smith - Poka mi fiuta.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Cringe Roku\\Franklin Czopek - Dziurka.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Cringe Roku\\Franklin Czopek - Dziurka.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Cringe Roku\\John Pappi - Przeleć mnie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Cringe Roku\\John Pappi - Przeleć mnie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Cringe Roku\\Matthew Freeman-Amarena - Alkoholik.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Cringe Roku\\Matthew Freeman-Amarena - Alkoholik.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Dzban Roku\\Jack Storm - Ban.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Dzban Roku\\Jack Storm - Ban.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Dzban Roku\\Johny Pappi - GLOCK.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Dzban Roku\\Johny Pappi - GLOCK.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Dzban Roku\\Ken Kentucky - Ty jesteś pierdolnięty.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Dzban Roku\\Ken Kentucky - Ty jesteś pierdolnięty.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Dzban Roku\\Radzimierz Wunderbaum - Auto się myje.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Dzban Roku\\Radzimierz Wunderbaum - Auto się myje.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Eventówka Roku\\Inker Kers - Jak jądra kocham.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Eventówka Roku\\Inker Kers - Jak jądra kocham.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Eventówka Roku\\Keny Glassman - Gruby i Czanry.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Eventówka Roku\\Keny Glassman - Gruby i Czanry.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Eventówka Roku\\Richard Gallardo - Małżeństwo.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Eventówka Roku\\Richard Gallardo - Małżeństwo.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Eventówka Roku\\Winston Red-Pablo - Małżeństwo.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Eventówka Roku\\Winston Red-Pablo - Małżeństwo.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Honorable Mention\\Adek Play - Poniosło.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Honorable Mention\\Adek Play - Poniosło.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Honorable Mention\\Bobbie Amarena-Pablo - Szatan.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Honorable Mention\\Bobbie Amarena-Pablo - Szatan.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Honorable Mention\\Jack Storm - Wejście smoka.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Honorable Mention\\Jack Storm - Wejście smoka.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Honorable Mention\\Jeffrey Hopper - Czarnuch.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Honorable Mention\\Jeffrey Hopper - Czarnuch.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Honorable Mention\\Luke Black - PAŁA.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Honorable Mention\\Luke Black - PAŁA.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Manewr Roku\\Alex Smith - HOP.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Manewr Roku\\Alex Smith - HOP.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Manewr Roku\\Jimmy Zoom & Charlie Pablo - Podanie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Manewr Roku\\Jimmy Zoom & Charlie Pablo - Podanie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Manewr Roku\\Ken Kentucky - RAM.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Manewr Roku\\Ken Kentucky - RAM.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Manewr Roku\\Radzimierz Wunderbaun - Nieruchoma.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Manewr Roku\\Radzimierz Wunderbaun - Nieruchoma.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\5 tur.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\5 tur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\GPS.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\GPS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\Medyk.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\Medyk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\Myszka & Kentucky.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\Myszka & Kentucky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\Pluto.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\Pluto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Mem Roku\\Zawias.jpg",
+      "PackagePath": "staticwebassets\\klipy\\Mem Roku\\Zawias.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najbardziej poczuty funkcjonariusz\\Aurelia Nelson.png",
+      "PackagePath": "staticwebassets\\klipy\\Najbardziej poczuty funkcjonariusz\\Aurelia Nelson.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najbardziej poczuty funkcjonariusz\\David Nelson-Hernandez.png",
+      "PackagePath": "staticwebassets\\klipy\\Najbardziej poczuty funkcjonariusz\\David Nelson-Hernandez.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najbardziej poczuty funkcjonariusz\\Jeffrey Hopper.png",
+      "PackagePath": "staticwebassets\\klipy\\Najbardziej poczuty funkcjonariusz\\Jeffrey Hopper.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najbardziej poczuty funkcjonariusz\\Jimmy Cruz.png",
+      "PackagePath": "staticwebassets\\klipy\\Najbardziej poczuty funkcjonariusz\\Jimmy Cruz.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najbardziej poczuty funkcjonariusz\\Peter Parkinson.png",
+      "PackagePath": "staticwebassets\\klipy\\Najbardziej poczuty funkcjonariusz\\Peter Parkinson.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najgorszy Kierowca Roku\\Alice Pablo - O KUR.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najgorszy Kierowca Roku\\Alice Pablo - O KUR.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najgorszy Kierowca Roku\\Arthur Glock - Cofam.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najgorszy Kierowca Roku\\Arthur Glock - Cofam.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najgorszy Kierowca Roku\\Deamon Devils - Dobrze ci poszło.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najgorszy Kierowca Roku\\Deamon Devils - Dobrze ci poszło.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najgorszy Kierowca Roku\\Johny Pappi - Przepraszam cie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najgorszy Kierowca Roku\\Johny Pappi - Przepraszam cie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najgorszy Kierowca Roku\\Ken Kentucky - Wykrakał.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najgorszy Kierowca Roku\\Ken Kentucky - Wykrakał.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepsza Akcja z Medykiem\\Bobbie Smith - Maczek.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepsza Akcja z Medykiem\\Bobbie Smith - Maczek.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepsza Akcja z Medykiem\\Gregory Pablo - Medycy.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepsza Akcja z Medykiem\\Gregory Pablo - Medycy.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepsza Akcja z Medykiem\\Inker Kers - Jajka mi zwiędną.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepsza Akcja z Medykiem\\Inker Kers - Jajka mi zwiędną.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepsza Akcja z Medykiem\\John Pappi - Idziesz na bache.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepsza Akcja z Medykiem\\John Pappi - Idziesz na bache.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepsza Akcja z Medykiem\\Ken Kentucky - Ja nowy 01.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepsza Akcja z Medykiem\\Ken Kentucky - Ja nowy 01.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[00] Esteban Amarena-Pablo - Alfons.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[00] Esteban Amarena-Pablo - Alfons.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[01] Sancho Pablo - Wruszka Zembuszka.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[01] Sancho Pablo - Wruszka Zembuszka.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[02] Charlie Pablo - Kretyni.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[02] Charlie Pablo - Kretyni.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[04] Abby Pablo - Hipnoza.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[04] Abby Pablo - Hipnoza.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[14] Johny Hell - IHAAA.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[14] Johny Hell - IHAAA.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy HighCommand\\[15] Jeffrey Hopper - Gołąb.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy HighCommand\\[15] Jeffrey Hopper - Gołąb.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy Pilot\\Alice Pablo - Kluczyki.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy Pilot\\Alice Pablo - Kluczyki.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy Pilot\\John Pappi - Mierz mi czas.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy Pilot\\John Pappi - Mierz mi czas.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy Pilot\\Johny Hell - Jak ty to zrobiłeś.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy Pilot\\Johny Hell - Jak ty to zrobiłeś.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy Pilot\\Melanie Hermandez-Pablo - Lądowanie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy Pilot\\Melanie Hermandez-Pablo - Lądowanie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najlepszy Pilot\\Taylor De Luca - O kurde.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najlepszy Pilot\\Taylor De Luca - O kurde.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najszybszy pościg\\Caleb Heys - Taksówka.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najszybszy pościg\\Caleb Heys - Taksówka.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najszybszy pościg\\Logan De Luca-Cruz - Rozpoczynamy 10-80.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najszybszy pościg\\Logan De Luca-Cruz - Rozpoczynamy 10-80.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Najszybszy pościg\\Matthew Freeman-Amarena - Tracker na ośce.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Najszybszy pościg\\Matthew Freeman-Amarena - Tracker na ośce.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Alex Smith - Salto.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Alex Smith - Salto.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Bobbie Amarena-Pablo - Podryw na oficerce.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Bobbie Amarena-Pablo - Podryw na oficerce.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Lily Honey - Skacze.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Lily Honey - Skacze.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Sancho Pablo - PWC na ten tydzień.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Sancho Pablo - PWC na ten tydzień.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Taylor De Luca & Matthew Devils - Disco Polowcy.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Taylor De Luca & Matthew Devils - Disco Polowcy.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Największy Core Moment\\Yuki Vixen - Dogadacie się.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Największy Core Moment\\Yuki Vixen - Dogadacie się.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\Abby Pablo & Charlie Pablo.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\Abby Pablo & Charlie Pablo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\David Nelson-Hernandez & Rose Nelson-Hernandez.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\David Nelson-Hernandez & Rose Nelson-Hernandez.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\Johny Hell & Camilla Hell.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\Johny Hell & Camilla Hell.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\Kenny Glassman & Gregory Pablo.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\Kenny Glassman & Gregory Pablo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\Lilia Morgan-Boom & Franklin Czopek.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\Lilia Morgan-Boom & Franklin Czopek.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Para Roku\\Sancho Pablo & Alice Pablo.png",
+      "PackagePath": "staticwebassets\\klipy\\Para Roku\\Sancho Pablo & Alice Pablo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\Abby Pablo - W potylice.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\Abby Pablo - W potylice.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\Bobbie Amarena-Pablo - Flesh.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\Bobbie Amarena-Pablo - Flesh.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\David Nelson-Hernandez - Jestem za glupi.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\David Nelson-Hernandez - Jestem za glupi.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\Jimmy Zoom - Zwierze.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\Jimmy Zoom - Zwierze.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\Ken Kentucky - Ken i Przyjaciele.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\Ken Kentucky - Ken i Przyjaciele.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Persona Roku\\Peter Parkinson - Zmieniam nazwisko.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Persona Roku\\Peter Parkinson - Zmieniam nazwisko.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Pościg Roku\\Adek Play - Jednak nie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Pościg Roku\\Adek Play - Jednak nie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Pościg Roku\\Deamon Devils - Kur.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Pościg Roku\\Deamon Devils - Kur.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Pościg Roku\\Jimmy Cruz - O kurde spadłem.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Pościg Roku\\Jimmy Cruz - O kurde spadłem.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Pościg Roku\\Raul Veron - Spider-Man.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Pościg Roku\\Raul Veron - Spider-Man.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Rage Roku\\Aurelia Nelson - Bojowka PYK PYK.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Rage Roku\\Aurelia Nelson - Bojowka PYK PYK.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Rage Roku\\Jeffrey Hopper & Simon Sanchez-Deuce - trabant.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Rage Roku\\Jeffrey Hopper & Simon Sanchez-Deuce - trabant.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Rage Roku\\Ken Kentucky - BOX.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Rage Roku\\Ken Kentucky - BOX.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Rage Roku\\Lilia Morgan - Driver.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Rage Roku\\Lilia Morgan - Driver.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Ethan Davies-Taylor - 102 metry.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Ethan Davies-Taylor - 102 metry.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Liam Guantanamo - Działa.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Liam Guantanamo - Działa.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Louis La-Rosa-Navarro - Oficer poleciał.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Louis La-Rosa-Navarro - Oficer poleciał.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Mathew Freeman-Amarena - Salto.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Mathew Freeman-Amarena - Salto.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Miles Zimmerman - Kurwo bita masz listwe.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Miles Zimmerman - Kurwo bita masz listwe.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Skoczek Roku\\Serji Holder - LEŻE LEŻE.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Skoczek Roku\\Serji Holder - LEŻE LEŻE.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Strzelec Roku\\Jimmy Zoom - Snajper.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Strzelec Roku\\Jimmy Zoom - Snajper.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Strzelec Roku\\Johny Hell - 2 down.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Strzelec Roku\\Johny Hell - 2 down.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Strzelec Roku\\Luke Black - Postrzel Go.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Strzelec Roku\\Luke Black - Postrzel Go.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Bobbie Amarena-Pablo - Lizanie Dupy.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Bobbie Amarena-Pablo - Lizanie Dupy.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Jimmy Cruz - Fisherowi stopy całować.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Jimmy Cruz - Fisherowi stopy całować.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Kira Boom - Przejme chwilowo u2.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Kira Boom - Przejme chwilowo u2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Lilia Morgan-Boom - Atak Terrorystyczny.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Lilia Morgan-Boom - Atak Terrorystyczny.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Luke Black - Panie Hell.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Luke Black - Panie Hell.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Ucięty Klip\\Mathew Evans-Pablo - Bigie nie odpowiada.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Ucięty Klip\\Mathew Evans-Pablo - Bigie nie odpowiada.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\WZR Roku\\Abby Pablo & Charlie Pablo - Krótko z Medykiem.mp4",
+      "PackagePath": "staticwebassets\\klipy\\WZR Roku\\Abby Pablo & Charlie Pablo - Krótko z Medykiem.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\WZR Roku\\Ken Kentucky - Gdyby nie kadet.mp4",
+      "PackagePath": "staticwebassets\\klipy\\WZR Roku\\Ken Kentucky - Gdyby nie kadet.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\WZR Roku\\Kyle Bob - Mały RDM.mp4",
+      "PackagePath": "staticwebassets\\klipy\\WZR Roku\\Kyle Bob - Mały RDM.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\WZR Roku\\Simon Sanchez-Deuce - VDM VDM VDM.mp4",
+      "PackagePath": "staticwebassets\\klipy\\WZR Roku\\Simon Sanchez-Deuce - VDM VDM VDM.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Alex Miller - Kadet w Pace.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Alex Miller - Kadet w Pace.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Ken Kentucky - Rozjeb się na mnie.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Ken Kentucky - Rozjeb się na mnie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Mathew Evans-Pablo - Leży jeden.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Mathew Evans-Pablo - Leży jeden.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Raul Veron & Eliza Pierce - To było nie łamać konstytucji.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Raul Veron & Eliza Pierce - To było nie łamać konstytucji.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Thomas Pablo - Tu jest strefa.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Thomas Pablo - Tu jest strefa.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wpadka Roku\\Tony Chimpanzee - Ide siedzieć.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wpadka Roku\\Tony Chimpanzee - Ide siedzieć.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wysiadka Roku\\Alice Pablo - EEEEE.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wysiadka Roku\\Alice Pablo - EEEEE.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wysiadka Roku\\Andrew Winchester - Ale się udało.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wysiadka Roku\\Andrew Winchester - Ale się udało.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wysiadka Roku\\Jeffrey Hopper - O kurde.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wysiadka Roku\\Jeffrey Hopper - O kurde.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wysiadka Roku\\Juan Garcia - No zajebiście.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wysiadka Roku\\Juan Garcia - No zajebiście.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Wysiadka Roku\\Kevin Rodreuigez & John Pappi  - Stój.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Wysiadka Roku\\Kevin Rodreuigez & John Pappi  - Stój.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\Andrew Winchester - Zdał Pan.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\Andrew Winchester - Zdał Pan.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\Bobbie Amarena-Pablo & Ken Kentucky  - Flash.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\Bobbie Amarena-Pablo & Ken Kentucky  - Flash.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\David Nelson-Hernandze - Milczenie jest złotem.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\David Nelson-Hernandze - Milczenie jest złotem.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\Jeffrey Hopper - aaaa.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\Jeffrey Hopper - aaaa.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\Serj Holder - Poddaj się.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\Serj Holder - Poddaj się.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\klipy\\Zwrot Akcji\\Simon Evans - Synu gdzie ta kultura.mp4",
+      "PackagePath": "staticwebassets\\klipy\\Zwrot Akcji\\Simon Evans - Synu gdzie ta kultura.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Złote Betterki\\Betterki\\Betterki\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Betterki.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Betterki.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Betterki.props",
+      "PackagePath": "build\\Betterki.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Betterki.props",
+      "PackagePath": "buildMultiTargeting\\Betterki.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Betterki.props",
+      "PackagePath": "buildTransitive\\Betterki.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,27 @@
+﻿@page
+@model Betterki.Pages.AdminModel
+<link rel="stylesheet" href="@Url.Content("~/wwwroot/site.css")" />
+<h1>🔒 Panel administratora</h1>
+
+@if (!Model.IsAdmin)
+{
+    <form method="post" asp-page-handler="Login" class="login-form">
+        <label for="AdminPassword">Hasło administratora:</label>
+        <input type="password" name="AdminPassword" required />
+        <button type="submit">Zaloguj</button>
+    </form>
+    return;
+}
+
+@foreach (var kat in Model.Dane)
+{
+    <div class="kategoria">
+        <h3>@kat.Key</h3>
+        <ul>
+            @foreach (var glos in kat.Value.Glosy)
+            {
+                <li>@glos.Key – @glos.Value głosów</li>
+            }
+        </ul>
+    </div>
+}

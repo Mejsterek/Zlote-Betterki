@@ -1,0 +1,242 @@
+{
+  "Cringe Roku": {
+    "Klipy": [
+      "klipy/Cringe Roku/Boobie Smith - Poka mi fiuta.mp4",
+      "klipy/Cringe Roku/Franklin Czopek - Dziurka.mp4",
+      "klipy/Cringe Roku/John Pappi - Przele\u0107 mnie.mp4",
+      "klipy/Cringe Roku/Matthew Freeman-Amarena - Alkoholik.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Dzban Roku": {
+    "Klipy": [
+      "klipy/Dzban Roku/Jack Storm - Ban.mp4",
+      "klipy/Dzban Roku/Johny Pappi - GLOCK.mp4",
+      "klipy/Dzban Roku/Ken Kentucky - Ty jeste\u015B pierdolni\u0119ty.mp4",
+      "klipy/Dzban Roku/Radzimierz Wunderbaum - Auto si\u0119 myje.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Event\u00F3wka Roku": {
+    "Klipy": [
+      "klipy/Event\u00F3wka Roku/Inker Kers - Jak j\u0105dra kocham.mp4",
+      "klipy/Event\u00F3wka Roku/Keny Glassman - Gruby i Czanry.mp4",
+      "klipy/Event\u00F3wka Roku/Richard Gallardo - Ma\u0142\u017Ce\u0144stwo.mp4",
+      "klipy/Event\u00F3wka Roku/Winston Red-Pablo - Ma\u0142\u017Ce\u0144stwo.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Honorable Mention": {
+    "Klipy": [
+      "klipy/Honorable Mention/Adek Play - Ponios\u0142o.mp4",
+      "klipy/Honorable Mention/Bobbie Amarena-Pablo - Szatan.mp4",
+      "klipy/Honorable Mention/Jack Storm - Wej\u015Bcie smoka.mp4",
+      "klipy/Honorable Mention/Jeffrey Hopper - Czarnuch.mp4",
+      "klipy/Honorable Mention/Luke Black - PA\u0141A.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Manewr Roku": {
+    "Klipy": [
+      "klipy/Manewr Roku/Alex Smith - HOP.mp4",
+      "klipy/Manewr Roku/Jimmy Zoom \u0026 Charlie Pablo - Podanie.mp4",
+      "klipy/Manewr Roku/Ken Kentucky - RAM.mp4",
+      "klipy/Manewr Roku/Radzimierz Wunderbaun - Nieruchoma.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Mem Roku": {
+    "Klipy": [
+      "klipy/Mem Roku/5 tur.jpg",
+      "klipy/Mem Roku/GPS.jpg",
+      "klipy/Mem Roku/Medyk.jpg",
+      "klipy/Mem Roku/Myszka \u0026 Kentucky.jpg",
+      "klipy/Mem Roku/Pluto.jpg",
+      "klipy/Mem Roku/Zawias.jpg"
+    ],
+    "Glosy": {}
+  },
+  "Najbardziej poczuty funkcjonariusz": {
+    "Klipy": [
+      "klipy/Najbardziej poczuty funkcjonariusz/Aurelia Nelson.png",
+      "klipy/Najbardziej poczuty funkcjonariusz/David Nelson-Hernandez.png",
+      "klipy/Najbardziej poczuty funkcjonariusz/Jeffrey Hopper.png",
+      "klipy/Najbardziej poczuty funkcjonariusz/Jimmy Cruz.png",
+      "klipy/Najbardziej poczuty funkcjonariusz/Peter Parkinson.png"
+    ],
+    "Glosy": {}
+  },
+  "Najgorszy Kierowca Roku": {
+    "Klipy": [
+      "klipy/Najgorszy Kierowca Roku/Alice Pablo - O KUR.mp4",
+      "klipy/Najgorszy Kierowca Roku/Arthur Glock - Cofam.mp4",
+      "klipy/Najgorszy Kierowca Roku/Deamon Devils - Dobrze ci posz\u0142o.mp4",
+      "klipy/Najgorszy Kierowca Roku/Johny Pappi - Przepraszam cie.mp4",
+      "klipy/Najgorszy Kierowca Roku/Ken Kentucky - Wykraka\u0142.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Najlepsza Akcja z Medykiem": {
+    "Klipy": [
+      "klipy/Najlepsza Akcja z Medykiem/Bobbie Smith - Maczek.mp4",
+      "klipy/Najlepsza Akcja z Medykiem/Gregory Pablo - Medycy.mp4",
+      "klipy/Najlepsza Akcja z Medykiem/Inker Kers - Jajka mi zwi\u0119dn\u0105.mp4",
+      "klipy/Najlepsza Akcja z Medykiem/John Pappi - Idziesz na bache.mp4",
+      "klipy/Najlepsza Akcja z Medykiem/Ken Kentucky - Ja nowy 01.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Najlepszy HighCommand": {
+    "Klipy": [
+      "klipy/Najlepszy HighCommand/[00] Esteban Amarena-Pablo - Alfons.mp4",
+      "klipy/Najlepszy HighCommand/[01] Sancho Pablo - Wruszka Zembuszka.mp4",
+      "klipy/Najlepszy HighCommand/[02] Charlie Pablo - Kretyni.mp4",
+      "klipy/Najlepszy HighCommand/[04] Abby Pablo - Hipnoza.mp4",
+      "klipy/Najlepszy HighCommand/[14] Johny Hell - IHAAA.mp4",
+      "klipy/Najlepszy HighCommand/[15] Jeffrey Hopper - Go\u0142\u0105b.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Najlepszy Pilot": {
+    "Klipy": [
+      "klipy/Najlepszy Pilot/Alice Pablo - Kluczyki.mp4",
+      "klipy/Najlepszy Pilot/John Pappi - Mierz mi czas.mp4",
+      "klipy/Najlepszy Pilot/Johny Hell - Jak ty to zrobi\u0142e\u015B.mp4",
+      "klipy/Najlepszy Pilot/Melanie Hermandez-Pablo - L\u0105dowanie.mp4",
+      "klipy/Najlepszy Pilot/Taylor De Luca - O kurde.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Najszybszy po\u015Bcig": {
+    "Klipy": [
+      "klipy/Najszybszy po\u015Bcig/Caleb Heys - Taks\u00F3wka.mp4",
+      "klipy/Najszybszy po\u015Bcig/Logan De Luca-Cruz - Rozpoczynamy 10-80.mp4",
+      "klipy/Najszybszy po\u015Bcig/Matthew Freeman-Amarena - Tracker na o\u015Bce.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Najwi\u0119kszy Core Moment": {
+    "Klipy": [
+      "klipy/Najwi\u0119kszy Core Moment/Alex Smith - Salto.mp4",
+      "klipy/Najwi\u0119kszy Core Moment/Bobbie Amarena-Pablo - Podryw na oficerce.mp4",
+      "klipy/Najwi\u0119kszy Core Moment/Lily Honey - Skacze.mp4",
+      "klipy/Najwi\u0119kszy Core Moment/Sancho Pablo - PWC na ten tydzie\u0144.mp4",
+      "klipy/Najwi\u0119kszy Core Moment/Taylor De Luca \u0026 Matthew Devils - Disco Polowcy.mp4",
+      "klipy/Najwi\u0119kszy Core Moment/Yuki Vixen - Dogadacie si\u0119.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Para Roku": {
+    "Klipy": [
+      "klipy/Para Roku/Abby Pablo \u0026 Charlie Pablo.png",
+      "klipy/Para Roku/David Nelson-Hernandez \u0026 Rose Nelson-Hernandez.png",
+      "klipy/Para Roku/Johny Hell \u0026 Camilla Hell.png",
+      "klipy/Para Roku/Kenny Glassman \u0026 Gregory Pablo.png",
+      "klipy/Para Roku/Lilia Morgan-Boom \u0026 Franklin Czopek.png",
+      "klipy/Para Roku/Sancho Pablo \u0026 Alice Pablo.png"
+    ],
+    "Glosy": {
+      "klipy/Para Roku/Kenny Glassman \u0026 Gregory Pablo.png": 1
+    }
+  },
+  "Persona Roku": {
+    "Klipy": [
+      "klipy/Persona Roku/Abby Pablo - W potylice.mp4",
+      "klipy/Persona Roku/Bobbie Amarena-Pablo - Flesh.mp4",
+      "klipy/Persona Roku/David Nelson-Hernandez - Jestem za glupi.mp4",
+      "klipy/Persona Roku/Jimmy Zoom - Zwierze.mp4",
+      "klipy/Persona Roku/Ken Kentucky - Ken i Przyjaciele.mp4",
+      "klipy/Persona Roku/Peter Parkinson - Zmieniam nazwisko.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Po\u015Bcig Roku": {
+    "Klipy": [
+      "klipy/Po\u015Bcig Roku/Adek Play - Jednak nie.mp4",
+      "klipy/Po\u015Bcig Roku/Deamon Devils - Kur.mp4",
+      "klipy/Po\u015Bcig Roku/Jimmy Cruz - O kurde spad\u0142em.mp4",
+      "klipy/Po\u015Bcig Roku/Raul Veron - Spider-Man.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Rage Roku": {
+    "Klipy": [
+      "klipy/Rage Roku/Aurelia Nelson - Bojowka PYK PYK.mp4",
+      "klipy/Rage Roku/Jeffrey Hopper \u0026 Simon Sanchez-Deuce - trabant.mp4",
+      "klipy/Rage Roku/Ken Kentucky - BOX.mp4",
+      "klipy/Rage Roku/Lilia Morgan - Driver.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Skoczek Roku": {
+    "Klipy": [
+      "klipy/Skoczek Roku/Ethan Davies-Taylor - 102 metry.mp4",
+      "klipy/Skoczek Roku/Liam Guantanamo - Dzia\u0142a.mp4",
+      "klipy/Skoczek Roku/Louis La-Rosa-Navarro - Oficer polecia\u0142.mp4",
+      "klipy/Skoczek Roku/Mathew Freeman-Amarena - Salto.mp4",
+      "klipy/Skoczek Roku/Miles Zimmerman - Kurwo bita masz listwe.mp4",
+      "klipy/Skoczek Roku/Serji Holder - LE\u017BE LE\u017BE.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Strzelec Roku": {
+    "Klipy": [
+      "klipy/Strzelec Roku/Jimmy Zoom - Snajper.mp4",
+      "klipy/Strzelec Roku/Johny Hell - 2 down.mp4",
+      "klipy/Strzelec Roku/Luke Black - Postrzel Go.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Uci\u0119ty Klip": {
+    "Klipy": [
+      "klipy/Uci\u0119ty Klip/Bobbie Amarena-Pablo - Lizanie Dupy.mp4",
+      "klipy/Uci\u0119ty Klip/Jimmy Cruz - Fisherowi stopy ca\u0142owa\u0107.mp4",
+      "klipy/Uci\u0119ty Klip/Kira Boom - Przejme chwilowo u2.mp4",
+      "klipy/Uci\u0119ty Klip/Lilia Morgan-Boom - Atak Terrorystyczny.mp4",
+      "klipy/Uci\u0119ty Klip/Luke Black - Panie Hell.mp4",
+      "klipy/Uci\u0119ty Klip/Mathew Evans-Pablo - Bigie nie odpowiada.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Wpadka Roku": {
+    "Klipy": [
+      "klipy/Wpadka Roku/Alex Miller - Kadet w Pace.mp4",
+      "klipy/Wpadka Roku/Ken Kentucky - Rozjeb si\u0119 na mnie.mp4",
+      "klipy/Wpadka Roku/Mathew Evans-Pablo - Le\u017Cy jeden.mp4",
+      "klipy/Wpadka Roku/Raul Veron \u0026 Eliza Pierce - To by\u0142o nie \u0142ama\u0107 konstytucji.mp4",
+      "klipy/Wpadka Roku/Thomas Pablo - Tu jest strefa.mp4",
+      "klipy/Wpadka Roku/Tony Chimpanzee - Ide siedzie\u0107.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Wysiadka Roku": {
+    "Klipy": [
+      "klipy/Wysiadka Roku/Alice Pablo - EEEEE.mp4",
+      "klipy/Wysiadka Roku/Andrew Winchester - Ale si\u0119 uda\u0142o.mp4",
+      "klipy/Wysiadka Roku/Jeffrey Hopper - O kurde.mp4",
+      "klipy/Wysiadka Roku/Juan Garcia - No zajebi\u015Bcie.mp4",
+      "klipy/Wysiadka Roku/Kevin Rodreuigez \u0026 John Pappi  - St\u00F3j.mp4"
+    ],
+    "Glosy": {}
+  },
+  "WZR Roku": {
+    "Klipy": [
+      "klipy/WZR Roku/Abby Pablo \u0026 Charlie Pablo - Kr\u00F3tko z Medykiem.mp4",
+      "klipy/WZR Roku/Ken Kentucky - Gdyby nie kadet.mp4",
+      "klipy/WZR Roku/Kyle Bob - Ma\u0142y RDM.mp4",
+      "klipy/WZR Roku/Simon Sanchez-Deuce - VDM VDM VDM.mp4"
+    ],
+    "Glosy": {}
+  },
+  "Zwrot Akcji": {
+    "Klipy": [
+      "klipy/Zwrot Akcji/Andrew Winchester - Zda\u0142 Pan.mp4",
+      "klipy/Zwrot Akcji/Bobbie Amarena-Pablo \u0026 Ken Kentucky  - Flash.mp4",
+      "klipy/Zwrot Akcji/David Nelson-Hernandze - Milczenie jest z\u0142otem.mp4",
+      "klipy/Zwrot Akcji/Jeffrey Hopper - aaaa.mp4",
+      "klipy/Zwrot Akcji/Serj Holder - Poddaj si\u0119.mp4",
+      "klipy/Zwrot Akcji/Simon Evans - Synu gdzie ta kultura.mp4"
+    ],
+    "Glosy": {}
+  }
+}
