@@ -63,7 +63,7 @@ body {
 }
 
 .klip-box {
-    text-align: center;n
+    text-align: center;
 }
 
     .klip-box video {
@@ -123,5 +123,87 @@ body {
 
     .klip-nazwa {
         font-size: 16px;
+    }
+}
+
+/* === FORMULARZ LOGOWANIA === */
+.login-form {
+    background-color: #022b22;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d4af37;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    background-color: #003322;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    outline: none;
+    border-color: #f0d560;
+    background-color: #004433;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+}
+
+.login-form button[type="submit"] {
+    background-color: #d4af37;
+    color: #012d24;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #f0d560;
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.7);
+    transform: scale(1.02);
+}
+
+.login-form button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 20px;
+        margin: 30px 15px;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .login-form button[type="submit"] {
+        padding: 10px 15px;
+        font-size: 14px;
     }
 }

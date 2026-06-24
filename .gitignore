@@ -1,0 +1,40 @@
+# Visual Studio
+
+.vs/
+*.user
+*.suo
+
+# Build results
+
+bin/
+obj/
+
+# Publish output
+
+publish/
+
+# ASP.NET Core Data Protection Keys
+out/
+
+keys/
+
+# Logs
+
+*.log
+
+# Rider
+
+.idea/
+
+# VS Code
+
+.vscode/
+
+# NuGet
+
+packages/
+
+# OS files
+
+Thumbs.db
+Desktop.ini
