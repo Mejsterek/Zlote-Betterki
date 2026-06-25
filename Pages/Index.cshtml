@@ -1,68 +1,95 @@
-﻿@page
+@page
 @model Betterki.Pages.IndexModel
-<!--<h1>Złote Betterki</h1>-->
+@{
+    ViewData["Title"] = "Głosowanie";
+    var zalogowany = HttpContext.Session.GetString("Blacha") != null;
+}
+
 @if (TempData["Message"] != null)
 {
-    <div class="alert-info-box">
+    <div class="alert alert-info app-alert" role="alert">
         @TempData["Message"]
     </div>
 }
-@if (HttpContext.Session.GetString("Blacha") == null)
+
+@if (!zalogowany)
 {
-    <form method="post" asp-page-handler="Zaloguj" class="login-form">
-        <label for="Blacha">Podaj imię i nazwisko (IC):</label>
-        <input type="text" name="ImieNazwisko" required />
+    <section class="auth-panel">
+        <div class="auth-copy">
+            <p class="section-label">Panel głosowania</p>
+            <h1>Wejdź do systemu</h1>
+            <p class="text-muted mb-0">Podaj dane z listy uprawnionych i hasło, aby zagłosować w kategoriach.</p>
+        </div>
+        <form method="post" asp-page-handler="Zaloguj" class="auth-form">
+            <label for="ImieNazwisko">Imię i nazwisko (IC)</label>
+            <input id="ImieNazwisko" type="text" name="ImieNazwisko" autocomplete="name" required />
 
-        <label for="Haslo">Hasło:</label>
-        <input type="password" name="Haslo" required />
+            <label for="Haslo">Hasło</label>
+            <input id="Haslo" type="password" name="Haslo" autocomplete="current-password" required />
 
-        <button type="submit">Zaloguj</button>
-    </form>
-    return;
+            <button type="submit" class="btn btn-gold w-100">Zaloguj</button>
+        </form>
+    </section>
 }
+else
+{
+    <div class="page-heading">
+        <div>
+            <p class="section-label">Aktywne głosowanie</p>
+            <h1>Kategorie i klipy</h1>
+        </div>
+    </div>
 
-<div class="kategorie-container">
-    @foreach (var kategoria in Model.Dane)
-    {
-        <div class="kategoria-box" id="kat_@kategoria.Key.Replace(" ", "%20")">
-            <h2>@kategoria.Key</h2>
-            <div class="filmy-row">
+    <div class="category-grid">
+        @foreach (var kategoria in Model.Dane)
+        {
+            <section class="category-panel" id="kat_@Uri.EscapeDataString(kategoria.Key)">
+                <div class="category-header">
+                    <h2>@kategoria.Key</h2>
+                    @if (Model.KategorieZGlosami.Contains(kategoria.Key))
+                    {
+                        <span class="badge rounded-pill text-bg-success">Oddano głos</span>
+                    }
+                </div>
+
                 @if (Model.KategorieZGlosami.Contains(kategoria.Key))
                 {
-                    <div class="glosowano-info">Już głosowałeś w tej kategorii!</div>
+                    <div class="vote-locked">Już głosowałeś w tej kategorii.</div>
                 }
                 else
                 {
-                    @foreach (var klip in kategoria.Value.Klipy)
-                    {
-                        <div class="klip-box">
-                            @if (klip.EndsWith(".mp4", StringComparison.OrdinalIgnoreCase))
-                            {
-                                <video controls>
-                                    <source src="@Url.Content($"~/{klip}")" type="video/mp4" />
-                                </video>
-                            }
-                            else if (klip.EndsWith(".png", StringComparison.OrdinalIgnoreCase) || klip.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase))
-                            {
-                                <img src="@Url.Content($"~/{klip}")" class="klip-obraz" />
+                    <div class="clip-grid">
+                        @foreach (var klip in kategoria.Value.Klipy)
+                        {
+                            <article class="clip-card">
+                                <div class="clip-media">
+                                    @if (klip.EndsWith(".mp4", StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        <video controls preload="metadata">
+                                            <source src="@Url.Content($"~/{klip}")" type="video/mp4" />
+                                        </video>
+                                    }
+                                    else
+                                    {
+                                        <img src="@Url.Content($"~/{klip}")" alt="@System.IO.Path.GetFileNameWithoutExtension(klip)" />
+                                    }
+                                </div>
 
-                            }
-
-                            <div class="klip-nazwa">
-                                @System.IO.Path.GetFileNameWithoutExtension(klip.Replace("\\", "/").Split('/').Last())
-                            </div>
-                            <form method="post" asp-page-handler="Glosuj">
-                                <input type="hidden" name="kategoria" value="@kategoria.Key" />
-                                <input type="hidden" name="klip" value="@klip" />
-                                <button type="submit" class="glosuj-button">Głosuj</button>
-                            </form>
-                        </div>
-                    }
+                                <div class="clip-meta">
+                                    <div class="clip-name">
+                                        @System.IO.Path.GetFileNameWithoutExtension(klip.Replace("\\", "/").Split('/').Last())
+                                    </div>
+                                    <form method="post" asp-page-handler="Glosuj">
+                                        <input type="hidden" name="kategoria" value="@kategoria.Key" />
+                                        <input type="hidden" name="klip" value="@klip" />
+                                        <button type="submit" class="btn btn-gold btn-sm w-100">Głosuj</button>
+                                    </form>
+                                </div>
+                            </article>
+                        }
+                    </div>
                 }
-            </div>
-
-        </div>
-    }
-</div>
-
-
+            </section>
+        }
+    </div>
+}

@@ -1,4 +1,4 @@
-{
+﻿{
   "Cringe Roku": {
     "Klipy": [
       "klipy/Cringe Roku/Boobie Smith - Poka mi fiuta.mp4",
@@ -135,9 +135,7 @@
       "klipy/Para Roku/Lilia Morgan-Boom \u0026 Franklin Czopek.png",
       "klipy/Para Roku/Sancho Pablo \u0026 Alice Pablo.png"
     ],
-    "Glosy": {
-      "klipy/Para Roku/Kenny Glassman \u0026 Gregory Pablo.png": 1
-    }
+    "Glosy": {}
   },
   "Persona Roku": {
     "Klipy": [
@@ -189,7 +187,6 @@
   },
   "Uci\u0119ty Klip": {
     "Klipy": [
-      "klipy/Uci\u0119ty Klip/Bobbie Amarena-Pablo - Lizanie Dupy.mp4",
       "klipy/Uci\u0119ty Klip/Jimmy Cruz - Fisherowi stopy ca\u0142owa\u0107.mp4",
       "klipy/Uci\u0119ty Klip/Kira Boom - Przejme chwilowo u2.mp4",
       "klipy/Uci\u0119ty Klip/Lilia Morgan-Boom - Atak Terrorystyczny.mp4",
@@ -237,6 +234,8 @@
       "klipy/Zwrot Akcji/Serj Holder - Poddaj si\u0119.mp4",
       "klipy/Zwrot Akcji/Simon Evans - Synu gdzie ta kultura.mp4"
     ],
-    "Glosy": {}
+    "Glosy": {
+      "klipy/Zwrot Akcji/Simon Evans - Synu gdzie ta kultura.mp4": 1
+    }
   }
 }

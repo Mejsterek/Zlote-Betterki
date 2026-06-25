@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,47 +9,33 @@
     <link rel="stylesheet" href="~/Betterki.styles.css" />
     <link rel="shortcut icon" href="~/favcicon.ico" />
 </head>
-<body>
-
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="page-wrapper d-flex flex-column min-vh-10">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/Zote_Betterki.png" alt="Logo" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                    </ul>
-                </div>
-                -->
+<body class="app-shell">
+    <header class="app-header">
+        <nav class="navbar navbar-dark app-nav">
+            <div class="container-fluid app-nav-inner">
+                <a class="navbar-brand d-flex align-items-center gap-3" asp-area="" asp-page="/Index">
+                    <img src="~/Zote_Betterki.png" alt="Złote Betterki" class="app-logo" />
+                    <span class="brand-text">Złote Betterki</span>
+                </a>
             </div>
         </nav>
     </header>
 
-
-    <div class="container">
-        <main role="main" class="pb-3">
+    <main class="app-main">
+        <div class="container app-container">
             @RenderBody()
-        </main>
-    </div>
+        </div>
+    </main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - Złote Betterki - Made by Dawid "Mejster" Senouci
+    <footer class="app-footer">
+        <div class="container d-flex justify-content-between flex-wrap gap-2">
+            <span>&copy; 2026 Złote Betterki</span>
+            <span>Dawid "Mejster" Senouci</span>
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

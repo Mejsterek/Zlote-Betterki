@@ -1,40 +1,37 @@
-# Visual Studio
-
+﻿# Visual Studio
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
 # Build results
-
 bin/
 obj/
 
 # Publish output
-
 publish/
+publish/**
+artifacts/
 
 # ASP.NET Core Data Protection Keys
 out/
-
 keys/
 
 # Logs
-
 *.log
 
 # Rider
-
 .idea/
 
 # VS Code
-
 .vscode/
 
 # NuGet
-
 packages/
 
 # OS files
-
 Thumbs.db
 Desktop.ini
+
+.fake

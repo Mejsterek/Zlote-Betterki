@@ -1,167 +1,141 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Text.Json;
+using System.Text;
 using Betterki.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using Microsoft.Extensions.Logging;
-using System;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Text.Json;
 
-namespace Betterki.Pages
+namespace Betterki.Pages;
+
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    public Dictionary<string, KlipModel> Dane { get; private set; } = new();
+    public HashSet<string> KategorieZGlosami { get; private set; } = new();
+
+    [BindProperty]
+    public string Haslo { get; set; } = string.Empty;
+
+    [BindProperty]
+    public string ImieNazwisko { get; set; } = string.Empty;
+
+    public IActionResult OnPostZaloguj()
     {
-        public Dictionary<string, KlipModel> Dane = new();
-
-        public HashSet<string> KategorieZGlosami = new();
-        
-        [BindProperty]
-        public string Haslo { get; set; }
-        [BindProperty]
-        public string ImieNazwisko { get; set; }
-
-        public IActionResult OnPostZaloguj()
+        if (string.IsNullOrWhiteSpace(ImieNazwisko) || string.IsNullOrWhiteSpace(Haslo))
         {
-            if (string.IsNullOrWhiteSpace(ImieNazwisko) || string.IsNullOrWhiteSpace(Haslo))
-            {
-                TempData["Message"] = "Uzupe³nij wszystkie pola.";
-                return RedirectToPage();
-            }
-
-            var imieNazwiskoLower = ImieNazwisko.Trim().ToLowerInvariant();
-
-            if (Haslo != "K@chamyPani¹04")
-            {
-                TempData["Message"] = "Niepoprawne has³o.";
-                return RedirectToPage();
-            }
-
-            var sciezka = Path.Combine(Directory.GetCurrentDirectory(), "funkcjonariusze.txt");
-
-            if (!System.IO.File.Exists(sciezka))
-            {
-                TempData["Message"] = "Brak listy funkcjonariuszy.";
-                return RedirectToPage();
-            }
-
-            var listaFunkcjonariuszy = System.IO.File.ReadAllLines(sciezka)
-                .Select(l => l.Trim().ToLowerInvariant());
-
-            if (!listaFunkcjonariuszy.Contains(imieNazwiskoLower))
-            {
-                TempData["Message"] = "Nie jesteœ uprawniony do g³osowania.";
-                return RedirectToPage();
-            }
-
-            HttpContext.Session.SetString("Blacha", imieNazwiskoLower);
+            TempData["Message"] = "UzupeÅ‚nij wszystkie pola.";
             return RedirectToPage();
         }
 
-
-
-
-        public void OnGet()
+        if (Haslo != "K@chamyPaniÄ…04")
         {
-            Dane = WczytajBaze();
-
-            var user = HttpContext.Session.GetString("Blacha");
-
-            if (!string.IsNullOrEmpty(user) && System.IO.File.Exists("glosy.txt"))
-            {
-                var wszystkieGlosy = System.IO.File.ReadAllLines("glosy.txt");
-
-                foreach (var linia in wszystkieGlosy)
-                {
-                    var dane = linia.Split("::");
-                    if (dane.Length >= 2 && dane[0] == user)
-                    {
-                        KategorieZGlosami.Add(dane[1]);
-                    }
-                }
-            }
-
-
+            TempData["Message"] = "Niepoprawne hasÅ‚o.";
+            return RedirectToPage();
         }
 
-
-        public IActionResult OnPost(string kategoria, string klip)
+        var sciezka = Path.Combine(Directory.GetCurrentDirectory(), "funkcjonariusze.txt");
+        if (!System.IO.File.Exists(sciezka))
         {
-            var blacha = HttpContext.Session.GetString("Blacha");
-
-            if (string.IsNullOrEmpty(blacha))
-            {
-                TempData["Message"] = "Nie jesteœ zalogowany. Podaj blachê.";
-                return RedirectToPage();
-            }
-
-            var cookieKey = $"voted_{kategoria.Replace(" ", "_")}";
-
-            var baza = WczytajBaze();
-
-            if (baza.ContainsKey(kategoria))
-            {
-                var kat = baza[kategoria];
-
-                if (kat.Klipy != null && kat.Glosy != null && kat.Klipy.Contains(klip))
-                {
-                    if (!kat.Glosy.ContainsKey(klip))
-                        kat.Glosy[klip] = 0;
-
-                    kat.Glosy[klip]++;
-                    ZapiszBaze(baza);
-
-                    var rawBlacha = HttpContext.Session.GetString("Blacha");
-                    if (!string.IsNullOrEmpty(rawBlacha))
-                    {
-                        var user = rawBlacha.Trim().ToLowerInvariant();
-                        System.IO.File.AppendAllText("glosy.txt", $"{user}::{kategoria}::{klip}\n");
-                    }
-
-
-                    TempData["Message"] = $"Dziêkujemy za g³os w kategorii '{kategoria}'!";
-                }
-            }
-
-            return Redirect($"/Index#kat_{Uri.EscapeDataString(kategoria)}");
-
+            TempData["Message"] = "Brak listy funkcjonariuszy.";
+            return RedirectToPage();
         }
 
-        private Dictionary<string, KlipModel> WczytajBaze()
+        var imieNazwiskoLower = ImieNazwisko.Trim().ToLowerInvariant();
+        var listaFunkcjonariuszy = System.IO.File.ReadAllLines(sciezka, Encoding.UTF8)
+            .Select(l => l.Trim().ToLowerInvariant());
+
+        if (!listaFunkcjonariuszy.Contains(imieNazwiskoLower))
         {
-            var baza = new Dictionary<string, KlipModel>();
-            var folderKlipy = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "klipy");
+            TempData["Message"] = "Nie jesteÅ› uprawniony do gÅ‚osowania.";
+            return RedirectToPage();
+        }
 
-            if (!Directory.Exists(folderKlipy))
-                return baza;
+        HttpContext.Session.SetString("Blacha", imieNazwiskoLower);
+        return RedirectToPage();
+    }
 
-            var kategorie = Directory.GetDirectories(folderKlipy);
+    public void OnGet()
+    {
+        Dane = WczytajBaze();
 
-            foreach (var katFolder in kategorie)
+        var user = HttpContext.Session.GetString("Blacha");
+        if (!string.IsNullOrEmpty(user) && System.IO.File.Exists("glosy.txt"))
+        {
+            var wszystkieGlosy = System.IO.File.ReadAllLines("glosy.txt", Encoding.UTF8);
+            foreach (var linia in wszystkieGlosy)
             {
-                var katNazwa = Path.GetFileName(katFolder);
-                var pliki = Directory.GetFiles(katFolder)
-                    .Where(f => f.EndsWith(".mp4", StringComparison.OrdinalIgnoreCase) ||
-                                f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                                f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase))
-                    .Select(p => $"klipy/{katNazwa}/{Path.GetFileName(p)}")
-                    .ToList();
-
-                if (pliki.Count > 0)
+                var dane = linia.Split("::");
+                if (dane.Length >= 2 && dane[0] == user)
                 {
-                    baza[katNazwa] = new KlipModel
-                    {
-                        Klipy = pliki,
-                        Glosy = new Dictionary<string, int>()
-                    };
+                    KategorieZGlosami.Add(dane[1]);
                 }
             }
+        }
+    }
 
+    public IActionResult OnPost(string kategoria, string klip)
+    {
+        var blacha = HttpContext.Session.GetString("Blacha");
+        if (string.IsNullOrEmpty(blacha))
+        {
+            TempData["Message"] = "Nie jesteÅ› zalogowany. Podaj blachÄ™.";
+            return RedirectToPage();
+        }
+
+        var baza = WczytajBaze();
+        if (baza.TryGetValue(kategoria, out var kat) && kat.Klipy.Contains(klip))
+        {
+            kat.Glosy[klip] = kat.Glosy.GetValueOrDefault(klip) + 1;
+            ZapiszBaze(baza);
+
+            System.IO.File.AppendAllText(
+                "glosy.txt",
+                $"{blacha.Trim().ToLowerInvariant()}::{kategoria}::{klip}{Environment.NewLine}",
+                Encoding.UTF8);
+
+            TempData["Message"] = $"DziÄ™kujemy za gÅ‚os w kategorii '{kategoria}'!";
+        }
+
+        return Redirect($"/Index#kat_{Uri.EscapeDataString(kategoria)}");
+    }
+
+    private Dictionary<string, KlipModel> WczytajBaze()
+    {
+        var baza = new Dictionary<string, KlipModel>();
+        var folderKlipy = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "klipy");
+
+        if (!Directory.Exists(folderKlipy))
+        {
             return baza;
         }
 
-        private void ZapiszBaze(Dictionary<string, KlipModel> baza)
+        foreach (var katFolder in Directory.GetDirectories(folderKlipy))
         {
-            var json = JsonSerializer.Serialize(baza, new JsonSerializerOptions { WriteIndented = true });
-            System.IO.File.WriteAllText("baza.txt", json);
+            var katNazwa = Path.GetFileName(katFolder);
+            var pliki = Directory.GetFiles(katFolder)
+                .Where(f => f.EndsWith(".mp4", StringComparison.OrdinalIgnoreCase) ||
+                            f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                            f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                            f.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase))
+                .Select(p => $"klipy/{katNazwa}/{Path.GetFileName(p)}")
+                .ToList();
+
+            if (pliki.Count == 0)
+            {
+                continue;
+            }
+
+            baza[katNazwa] = new KlipModel
+            {
+                Klipy = pliki,
+                Glosy = new Dictionary<string, int>()
+            };
         }
+
+        return baza;
+    }
+
+    private void ZapiszBaze(Dictionary<string, KlipModel> baza)
+    {
+        var json = JsonSerializer.Serialize(baza, new JsonSerializerOptions { WriteIndented = true });
+        System.IO.File.WriteAllText("baza.txt", json, Encoding.UTF8);
     }
 }

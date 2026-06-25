@@ -1,27 +1,46 @@
 ﻿@page
 @model Betterki.Pages.AdminModel
-<link rel="stylesheet" href="@Url.Content("~/wwwroot/site.css")" />
-<h1>🔒 Panel administratora</h1>
-
-@if (!Model.IsAdmin)
-{
-    <form method="post" asp-page-handler="Login" class="login-form">
-        <label for="AdminPassword">Hasło administratora:</label>
-        <input type="password" name="AdminPassword" required />
-        <button type="submit">Zaloguj</button>
-    </form>
-    return;
+@{
+    ViewData["Title"] = "Panel administratora";
 }
 
-@foreach (var kat in Model.Dane)
-{
-    <div class="kategoria">
-        <h3>@kat.Key</h3>
-        <ul>
-            @foreach (var glos in kat.Value.Glosy)
-            {
-                <li>@glos.Key – @glos.Value głosów</li>
-            }
-        </ul>
+<section class="admin-panel">
+    <div class="admin-header">
+        <p class="section-label">Administracja</p>
+        <h1>Panel administratora</h1>
     </div>
-}
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-info app-alert" role="alert">@TempData["Message"]</div>
+    }
+
+    @if (!Model.IsAdmin)
+    {
+        <form method="post" asp-page-handler="Login" class="auth-form auth-form-compact">
+            <label for="AdminPassword">Hasło administratora</label>
+            <input id="AdminPassword" type="password" name="AdminPassword" required />
+            <button type="submit" class="btn btn-gold w-100">Zaloguj</button>
+        </form>
+    }
+    else
+    {
+        <div class="admin-list">
+            @foreach (var kat in Model.Dane)
+            {
+                <section class="admin-category">
+                    <h2>@kat.Key</h2>
+                    <ul class="admin-vote-list">
+                        @foreach (var glos in kat.Value.Glosy.OrderByDescending(x => x.Value))
+                        {
+                            <li>
+                                <span>@glos.Key</span>
+                                <strong>@glos.Value</strong>
+                            </li>
+                        }
+                    </ul>
+                </section>
+            }
+        </div>
+    }
+</section>
